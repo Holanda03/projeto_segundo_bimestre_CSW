@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Projeto 2° Bimestre</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Cadastre-se como Refugiada</h1>
+        <form id="form">
+            <div class="fullArea">
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+            </div>
+            <div class="halfArea spacing">
+                <label for="firstname">Nome*</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Digite seu nome">
+            </div>
+            <div class="halfArea">
+                <label for="lastname">Sobrenome*</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="halfArea spacing">
+                <label for="password">Senha*</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            </div>
+            <div class="halfArea">
+                <label for="passvalidation">Confirmação da senha*</label>
+                <input type="password" name="passvalidation" id="passvalidation" placeholder="Confirme sua senha">
+            </div>
+            <div class="fullArea">
+                <label for="datenasc">Data de Nascimento*</label>
+                <input type="date" name="datenasc" id="datenasc" placeholder="Informe sua data de nascimento">
+            </div>
+            <div class="fullArea">
+                <label for="nacionality">Nacionalidade*</label>
+                <input type="text" name="nacionality" id="nacionality" placeholder="Digite sua nacionalidade">
+            </div>
+            <div class="fullArea">
+                <label for="cadonu">Número de Cadastro na ONU*</label>
+                <input type="text" name="cadonu" id="cadonu" placeholder="Digite seu cadastro">
+            </div>
+            <div class="fullArea">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Li e aceito os <a href="#">termos de uso*</a></label>
+            </div>
+            <div class="fullArea">
+                <p>* Campos Obrigatórios</p>
+            </div>
+            <div class="fullArea">
+                <input type="submit" value="Registrar-se" id="btnsubmit">
+            </div>
+            <div class="fullArea" >
+                <p class="otherOptions">Já possui uma conta? <a href="#">Clique aqui</a></p>
+                <p class="otherOptions">Deseja cadastrar-se como anfitriã? <a href="#">Clique aqui</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
